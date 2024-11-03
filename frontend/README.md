@@ -1,16 +1,31 @@
-# Workout Buddy
+# API endpoints
 
-Workout Buddy is a simple application to help users track their workouts. Users can add exercises with details like title, loads, and reps, view their workout list, and delete workouts.
+## GET
 
-## Features
+/workouts
 
-- Add new workouts with title, loads, and reps
-- View a list of all workouts
-- Delete workouts
+- Gets all the workout docs
 
-## Contact
+## POST
 
-For any questions, please contact:
+/workouts
 
-- **Name:** R.Keerthana
-- **Email:** keerthudhishal04@gamil.com
+- Creates a new workout docs
+
+## GET
+
+/workouts/:id
+
+- Gets a single workout doc
+
+## DELETE
+
+/workouts/:id
+
+- Deletes a single workout doc
+
+## PATCH
+
+/workouts/:id
+
+- Updates a single workout doc
